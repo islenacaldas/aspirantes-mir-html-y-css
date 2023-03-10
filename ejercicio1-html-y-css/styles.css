@@ -1,0 +1,39 @@
+form{
+    background: linear-gradient(#bd09b7, #6b4cf5);
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+    color: white;
+    box-sizing: border-box;
+}
+
+input, select{
+padding: 7px;
+width: 100%; 
+box-sizing: border-box;
+margin-bottom: 10px;
+}
+
+.checkbox, .btn{
+    width: auto ;
+}
+
+.btn{
+    padding: 5px 15px;
+}
+
+.derecha{
+    text-align: right;
+}
+
+@media (min-width: 500px) {
+    form {
+      width: 300px;
+    }
+  }
+
+@media (max-width: 499px) {
+  form {
+    width: 100%;
+  }
+}
